@@ -880,7 +880,7 @@ var SendAudio = (() => {
             this.buttons.group.append(this.buttons.save);
             this.buttons.group.append(this.buttons.send);
 
-            buttons_.append(this.buttons.group);
+            buttons_.prepend(this.buttons.group);
 
             for(let k in this.tooltips){
                 if(k in this.buttons){
